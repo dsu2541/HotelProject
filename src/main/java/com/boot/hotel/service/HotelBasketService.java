@@ -2,8 +2,6 @@ package com.boot.hotel.service;
 
 import java.util.List;
 
-import org.apache.ibatis.annotations.Param;
-
 import com.boot.hotel.dto.HotelBasketDTO;
 
 public interface HotelBasketService {

@@ -11,6 +11,6 @@ public class ReviewScoreDTO {
 	
 	private int hotel_id;
 	private int count;
-	private int ave;
+	private double ave;
 	
 }

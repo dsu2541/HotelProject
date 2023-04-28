@@ -693,6 +693,7 @@ ul.half li {
   margin-left: 0;
   display: flex;
   justify-content: center;
+  
 }
 
 .row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] {
@@ -1184,17 +1185,18 @@ ul.half li {
 .comments .comment figure .image img {
   height: 100%;
 }
-.comments .comment .date {
+.comment .date {
   font-size: 12px;
-  position: absolute;
-  right: 0;
-  top: 5px;
-}
-.comments .comment .date .fa {
+  display: inline-block;
+  margin-left: 20px;
   color: #b8b8b8;
-  font-size: 10px;
-  margin-right: 10px;
 }
+.comment .date i {
+  font-size: 10px;
+  margin-right: 5px;
+  color: #b8b8b8;
+}
+
 .comments .comment .name {
   display: table;
   font-size: 18px;
@@ -3364,12 +3366,16 @@ line-height: 0;
   color: #1f1f1f;
   font-weight: normal;
 }
+.rating-score li:nth-child(2) {
+  display: none;
+}
+
 
 .review {
   -moz-transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   position: relative;
 }
 .review.switch {
@@ -3399,7 +3405,7 @@ line-height: 0;
   -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.07);
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.07);
   background-color: #fff;
-  padding: 20px;
+  padding: 70px;  /* 칸 크기 늘리는 거 */
   position: relative;
 }
 .review .comment:before {
@@ -4993,6 +4999,7 @@ body::before {
 
   .review .comment {
     margin-top: 10px;
+    margin-bottom: 50px;
   }
   .review .comment:before {
     content: "";
@@ -5392,6 +5399,7 @@ body::before {
     text-align: center;
   }
   
+
 
 
   

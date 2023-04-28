@@ -508,11 +508,6 @@ function rating(element){
                 '<i class="fa fa-star s3" data-score="3"></i>'+
                 '<i class="fa fa-star s4" data-score="4"></i>'+
                 '<i class="fa fa-star s5" data-score="5"></i>'+
-                '<i class="fa fa-star s6" data-score="6"></i>'+
-                '<i class="fa fa-star s7" data-score="7"></i>'+
-                '<i class="fa fa-star s8" data-score="8"></i>'+
-                '<i class="fa fa-star s9" data-score="9"></i>'+
-                '<i class="fa fa-star s10" data-score="10"></i>'+
             '</span>'
         ;
     if( !element ) { element = ''; }
